@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Тестовое задание</title>
-    <link rel="stylesheet" href="css/coffee.css">
+    <link rel="stylesheet" href="coffee.css">
     <link rel="stylesheet" href="css/coffee600px.css">
     <link rel="stylesheet" href="css/coffee320.css">
     <link rel="stylesheet" href="css/coffee1024px.css">
@@ -148,7 +148,7 @@
   </div>
     <div class="responsive-image">
         <picture>
-            <source media="(max-width: 600px)" srcset="image/img1024/banner.png">
+            <source media="(max-width: 600px)" srcset="banner.png">
             <source media="(min-width: 601px) and (max-width: 1023px)" srcset="image/img1024/banner1024.png">
             <img class="responsive-image" src="image/img1024/banner1024.png" alt="Description">
         </picture>
