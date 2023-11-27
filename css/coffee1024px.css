@@ -1,0 +1,282 @@
+/* Стили для планшетов */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .header{
+        overflow: hidden;
+        width: auto;
+    }
+    /* Ваши стили для мобильных устройств здесь */
+    .img-1{
+        position: absolute;
+    }
+
+    .img-2{
+        margin: 0px 0px 0px 495px;
+    }
+    .img-3{
+        margin: 150px 101px 0px 694px;
+    }
+    .img-4{
+        width: 54px;
+        height: 54px;
+        margin-top: 22px;
+    }
+    .img-5{
+        width:48px;
+        height: 48px;
+        font-size: 14px;
+    }
+    .custom-container{
+        margin-top: 16px;
+
+    }
+    .btn{
+        color: white;
+        width: 189px;
+        height: 52px;
+        font-size: 16px;
+        margin-right: 8px;
+    }
+    .btn2{
+        width: 189px;
+        height: 52px;
+        font-size: 16px;
+        margin-right: 8px;
+    }
+    .div-container{
+        align-items: center;
+        margin-top: 47px;
+        margin-right: 0px;
+    }
+    .container{
+        width: 260px;
+    }
+
+    .custom-box {
+        width: 260px;
+        margin-top: 0px;
+    }
+    .date {
+        font-size: 30px;
+        width: 300px;
+    }
+    .month{
+        font-size: 16px;
+        width: 500px;
+    }
+    .info {
+        font-size: 12px;
+    }
+    .header-div{
+        margin-left: 55px;
+    }
+    .div-english{
+        font-size: 20px;
+        margin-top: 18px;
+    }
+    .english{
+        font-size: 20px;
+        line-height: 17.50px;
+        letter-spacing: 0.14px;
+    }
+    .header-p-1{
+        font-size: 33px;
+    }
+    .header-span-2{
+        font-size: 22px;
+    }
+    .header-span{
+        font-size: 22px;
+    }
+    .content-title{
+        font-size: 24px;
+        font-weight: 400;
+        margin: 21px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .div-course-container{
+        margin: 53px 53px 0px 100px;
+    }
+    .course-info{
+        width: 200px;
+        height: 489px;
+        margin-top:20px;
+    }
+    /*довести до ума низ*/
+    .title{
+        margin: 17px 55px 18.41px 56px;
+        color: #1B002F;
+        font-size: 16px;
+        font-family: Helvetica Neue;
+        font-weight: 500;
+        line-height: 17.28px;
+        word-wrap: break-word
+    }
+    .percent{
+        margin: 20px 12px 0px 105px;
+        color: white;
+        font-size: 12px;
+        font-family: Helvetica Neue;
+        font-weight: 400;
+        line-height: 23.43px;
+        word-wrap: break-word;
+        width: 46px;
+        height: 23px;
+        border-radius: 3px;
+        padding: 0px;
+    }
+    .price-current{
+        margin: 18px 50px 7px 23px;
+        color: #1B002F;
+        font-size: 30px;
+        font-family: Helvetica Neue;
+        font-weight: 400;
+        line-height: 32.40px;
+        word-wrap: break-word;
+    }
+    .price-original{
+        margin: 0px 69px 0px 15px;
+        color: #A7ACBF;
+        font-size: 18px;
+        font-family: Helvetica Neue;
+        font-weight: 400;
+        line-height: 19.44px;
+        word-wrap: break-word
+    }
+    .duration{
+        margin: 23px 0px 0px 0px;
+        color: #1B002F;
+        font-size: 8px;
+        font-family: Montserrat;
+        font-weight: 600;
+        word-wrap: break-word
+    }
+    .feature{
+        margin: 11px 0px 0px 0px;
+        color: #1B002F;
+        font-size: 8px;
+        font-family: Montserrat;
+        font-weight: 400;
+        word-wrap: break-word
+    }
+    .label{
+        color: #A7ACBF;
+        font-size: 12px;
+        font-family: Helvetica Neue;
+        font-weight: 400;
+        line-height: 12.96px;
+        word-wrap: break-word
+    }
+    .price{
+        color: #1B002F;
+        font-size: 22px;
+        font-family: Helvetica Neue;
+        font-weight: 400;
+        line-height: 23.76px;
+        word-wrap: break-word
+    }
+    .payment-button{
+        width: 125px;
+        height: 40px;
+        color: white;
+        font-size: 8px;
+        font-family: Montserrat, sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 11px;
+        word-wrap: break-word;
+        margin: 5px 15px 0px 42px;
+    }
+    .banner {
+        display: none;
+    }
+    .responsive-image{
+        width: 678px;
+        height: 223px;
+        text-align: center;
+        /*margin: 37px 53px 0px 57px;*/
+        display:block;
+        margin: 37px auto 37px auto;
+    }
+
+    /** Отображение картинки при разрешении 600px и меньше *!*/
+    .footer-div{
+        height: 380px;
+        width: auto;
+    }
+    .footer-div-3{
+        /*margin: 23px 507px 0px 509px;*/
+        font-size: 12px;
+        margin: 0px;
+        line-height: 13.20px;
+    }
+    .footer-input{
+        border-radius: 8px;
+        width: 268px;
+        height: 37px;
+        margin-top:11px;
+        font-size: 12px;
+    }
+    .footer{
+        width: auto;
+        height: 300px;
+    }
+    .footer-btn{
+        font-size: 16px;
+        width: 268px;
+        height: 50px;
+    }
+    .footer-div-4{
+        font-size: 8px;
+        line-height: 8px;
+    }
+    .footer-div-txt{
+        color: white;
+        font-size: 14px;
+        font-family: Helvetica Neue, sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 25.20px;
+        word-wrap: break-word
+    }
+    .div-english-2{
+        margin: 27px 0px 20px 0px;
+        font-size: 14px;
+    }
+    .english-2{
+        display: flex;
+        font-size: 24px;
+        font-family: HeadLineA,sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.24px;
+        word-wrap: break-word;
+    }
+
+    .div-english-2{
+
+        color: white;
+        font-size: 11px;
+        font-family: Helvetica Neue,sans-serif;
+        font-weight: 400;
+        line-height: 16.50px;
+        word-wrap: break-word
+    }
+    .footer-div-txt2{
+        font-size: 8px;
+        line-height: 15px;
+        margin-top: 12px ;
+    }
+    .footer-div-2{
+        margin-bottom: 11px;
+        color: #151515;
+        font-size: 20px;
+        font-family: Helvetica Neue;
+        font-weight: 500;
+        line-height: 20px;
+        word-wrap: break-word
+    }
+    .icon{
+        margin-top: 15px;
+    }
+
+}

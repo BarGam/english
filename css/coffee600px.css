@@ -1,0 +1,162 @@
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 600px) {
+    .header{
+        overflow: hidden;
+        width: auto;
+    }
+    /* Ваши стили для мобильных устройств здесь */
+    .img-1{
+        width: 579px;
+        position: absolute;
+        height: 393px;
+        margin: 71px -144px;
+    }
+
+    .img-2{
+        /*position: absolute;*/
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0px 0px 0px 280px;
+        object-fit: cover;
+        top: 0; /* Установите вертикальное положение */
+        left: 0; /* Установите горизонтальное положение */
+
+    }
+    .img-3{
+        top: 71px;
+        left: 220px;
+        position: absolute;
+        margin: 0px 0px 0px 193px;
+    }
+    .img-4{
+        width: 38px;
+        height: 34px;
+        margin-left: 0px;
+        margin-top: 27px;
+    }
+    .img-5{
+        width: 70px;
+        height: 70px;
+        font-size: 14px;
+    }
+    .header-div{
+        margin-left: 28px;
+    }
+    .custom-container{
+        flex-direction: column; /* Изменяем направление на вертикальное */
+        margin-top: 16px;
+
+    }
+    .div-container{
+        flex-direction: column; /* Изменяем направление на вертикальное */
+        align-items: center; /* Центрируем кнопки по горизонтали */
+        margin-top: 47px;
+        /* Здесь устанавливаем цвета фона: от оранжевого до прозрачного */
+    }
+    .container{
+        width: 260px;
+    }
+    .custom-box {
+        width: 173px;
+        background: rgba(65.86, 65.86, 65.86, 0.80);
+        margin-top: 0px;
+    }
+    .btn2{
+        margin-top:10px ;
+    }
+
+    .english{
+        font-size: 14px;
+        line-height: 17.50px;
+        letter-spacing: 0.14px;
+    }
+    .header-p-1{
+        color: #232323;
+        font-size: 24px;
+    }
+    .header-span,.header-span-2{
+        color: #232323;
+        font-size: 14px;
+    }
+    .content-title{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.20px;
+        margin:42px 31px 0 31px;
+        text-align: center;
+    }
+
+    .div-course-container{
+        display: flex;
+        flex-direction: column; /* Располагаем блоки в столбец по умолчанию */
+        margin-bottom: 20px; /* Расстояние между блоками */
+    }
+    .course-info{
+        /*margin-right: 11px;;*/
+        margin-top:20px;
+    }
+    .banner {
+        display: none;
+    }
+    /** Отображение картинки при разрешении 600px и меньше *!*/
+    .responsive-image{
+        width: 266px;
+        height: 87px;
+        text-align: center;
+        display:block;
+        margin: 37px auto 37px auto;
+    }
+
+    .footer-div{
+        height: 380px;
+        width: auto;
+    }
+    .footer-div-3{
+        /*margin: 23px 507px 0px 509px;*/
+        font-size: 12px;
+        margin: 0px;
+    }
+    .footer-input{
+        width: 268px;
+        height: 37px;
+        margin-top:11px;
+        font-size: 12px;
+    }
+    .footer{
+        width: auto;
+        height: 300px;
+    }
+    .footer-btn{
+        font-size: 16px;
+        width: 268px;
+        height: 50px;
+    }
+    .footer-div-4{
+        font-size: 8px;
+    }
+    .footer-div-txt{
+        margin-top: 12px ;
+        font-size: 8px;
+        padding: 0px;
+        line-height: 15px;
+    }
+    .div-english-2{
+        margin: 27px 0px 20px 0px;
+        font-size: 14px;
+    }
+    .english-2{
+        margin: 0px 0px 0px 0px;
+        line-height: 50px;
+    }
+    .footer-div-txt2{
+        font-size: 8px;
+        line-height: 15px;
+        margin-top: 12px ;
+    }
+    .footer-div-2{
+        font-size: 16px;
+    }
+
+}
